@@ -15,3 +15,11 @@ Projeto gerador de senhas em python para criar senhas mais seguras
 * Python
 * random / secrets
 * strings
+
+## 🏆Profissionalizando
+
+- [ ] Versão com interface
+- [ ] Nível 2 - Garantir ao menos 1 número, 1 uppercase, 1 símbolo
+- [ ] Copiar senha automaticamente
+- [ ] Nível 3 - Histórico de senhas
+- [ ] Transformar em app executavel (.exe)
