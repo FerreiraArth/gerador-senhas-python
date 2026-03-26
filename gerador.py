@@ -1,4 +1,4 @@
-import random
+import secrets
 import string
 
 def gerar_senha(tamanho=12, usar_simbolos=True):
@@ -11,7 +11,7 @@ def gerar_senha(tamanho=12, usar_simbolos=True):
     if usar_simbolos:
         caracteres += simbolos
 
-    senha = ''.join(random.choice(caracteres) for _ in range(tamanho)) #Esconhe um caracter aleatorio varias vezes e junta tudo em uma string
+    senha = ''.join(secrets.choice(caracteres) for _ in range(tamanho)) #Esconhe um caracter aleatorio varias vezes e junta tudo em uma string
 
     return senha
 
